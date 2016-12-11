@@ -33,8 +33,8 @@ Het spel moet aan de volgende functionele eisen voldoen:
 Technische eisen beschrijven aan welke vakgerichte voorwaarden de opdracht moet voldoen. Bijvoorbeeld dat de opdracht in correct validerend HTML en CSS moet zijn geschreven. 
 
 Het spel moet aan de volgende technische eisen voldoen:
-* De presentatie van de rekenmachine is gemaakt door gebruik te maken van HTML en CSS.
-* De logica van de rekenmachine is geprogrammeert in Javascript.
+* De presentatie van het spel is gemaakt door gebruik te maken van HTML en CSS.
+* De logica van het spel is geprogrammeert in Javascript.
 * Het spel genereert willekeurig (random) een kleurencode. 
 
 ###Bonus
