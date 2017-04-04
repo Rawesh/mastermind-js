@@ -1,0 +1,123 @@
+body{
+	background-image: url(img/blauw.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+#mainpage{
+	display: flex;
+	flex-direction: row;
+}
+
+nav{
+	width: 50%;
+}
+
+article{
+width: 45%;	
+height: 550px;
+}
+
+aside{
+	width: 20%;
+	height: 300px;
+	text-align: center;
+ 	background-image: url(img/kleur.jpg);
+  	background-position: center;
+  	background-size: cover;
+	border-style: dotted solid dashed;
+	color: cyan; 						
+	font-size: 20px;
+	padding: 5px;
+}
+
+h1{
+	text-align: center;
+}
+
+
+input[type=button]{
+	color: cyan;
+	width: 120px;
+	background-color: black;
+	margin : 0px;
+}
+
+#checkcode{
+	width: 120px;
+	height: 22px;
+}
+
+p{
+	background-color: black;
+	color: red;
+	text-align: center;
+}
+
+
+
+fieldset{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	margin-top: 3px;
+	float: left;
+	border-radius: 50%;
+	border: solid 2px black;
+}
+
+fieldset.color1 {
+	/*background-color: blue;*/
+}
+
+button{
+	margin: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+#colorrow{
+	 background-image: url(img/zilver.jpg);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-position: center;
+	 height: 250px;
+}
+
+#orange{
+	background-color: #FF4500;
+}
+
+#blue{
+	background-color: blue;
+}
+
+#yellow{
+	background-color: yellow;
+}
+
+#green{
+	background-color: green;
+}
+
+#purple{
+	background-color: purple;
+}
+
+#black{
+	background-color: black;
+}
+
+
+
+#first{
+	background-image: url(img/black.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+	margin-top: 5px;
+	/*position: absolute;*/
+	top: 130px;
+	left: 590px;
+	height: 550px;
+	width: 218px;
+}

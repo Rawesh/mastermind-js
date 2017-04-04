@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>master-mind</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="mm.css">
+</head>
+<body>
+
+		<h1>Master Mind</h1>
+
+<div id="mainpage">
+	<nav>
+		<input type="button" value="Start Spel" onclick="newgame()">
+		<br>
+		<fieldset id="colorrow">
+			<p>Click</p>
+			<button id="orange" value="0" onclick="setcolor('orange','p1')"></button>
+			<button id="blue" 	value="1" onclick="setcolor('blue'  ,'p2')"></button>
+			<button id="yellow" value="2" onclick="setcolor('yellow','p3')"></button>
+			<button id="green" 	value="3" onclick="setcolor('green' ,'p4')"></button>
+			<button id="purple" value="4" onclick="setcolor('purple','p5')"></button>
+			<button id="black" 	value="5" onclick="setcolor('black' ,'p6')"></button>
+		</fieldset>
+
+	</nav>
+
+	<article>
+		<div id="first">
+			<fieldset id="code1"></fieldset>
+			<fieldset id="code2"></fieldset>
+			<fieldset id="code3"></fieldset>
+			<fieldset id="code4"></fieldset>
+
+		<!-- Invoer van de pogingen -->
+		<div id="row1"></div>
+			
+
+
+		</div>
+	</article>
+
+	<aside>
+		<header>
+			- 4 kleuren die jij moet gaan raden.
+			<br>
+			- 6 kleuren waar jij uit kan kiezen.
+			<br>
+			- 12 pogingen om te raden.
+			<br>
+			- staat er een groen circel omheen dan staat die goed.
+			<br>
+			- staat er een rood circel omheen dan staat die op de verkeerde plek.
+			<br>
+			- staat er een zwart circel omheen dan komt die niet voor in de code.
+		</header>
+	</aside>
+</div>
+
+<script <script src = "mastermind.js"></script></script>
+</body>
+</html>
